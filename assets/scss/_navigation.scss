@@ -1,0 +1,15 @@
+.navigation{
+    padding: 40px 130px;
+    transition: .3s ease;
+    &.nav-bg {
+        background-color: $primary;
+        padding: 15px 100px;
+        @include media-breakpoint-down(lg) {
+            padding: 15px 20px;
+        }
+    }
+    @include media-breakpoint-down(lg) {
+        padding: 20px;
+        background: $primary;
+    }
+}
