@@ -96,7 +96,7 @@ export default {
 
 <style scoped lang="scss">
 aside {
-	background-image: url('@/assets/images/backgrounds/bg-dots.png');
+	background-image: url('/images/backgrounds/bg-dots.png');
 	margin-bottom: -250px;
 }
 </style>

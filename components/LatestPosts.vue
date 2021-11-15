@@ -5,50 +5,38 @@
                 <div class="col-12 text-center">
                     <h2 class="section-title display-4">Latest Posts</h2>
                 </div>
-                <!-- <div v-for="post in $static.posts.edges" :key="post.node.id" class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                <div v-for="post in posts" :key="post.slug" class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
                     <article class="card shadow">
-                        <img class="rounded card-img-top" :src="post.node.thumbnail" alt="post-thumb" />
+                        <nuxt-img v-if="post.thumbnail" class="rounded card-img-top" src="/images/logo/placeholder.png" alt="post-thumb" />
+                        <nuxt-img v-else class="rounded card-img-top" :src="post.thumbnail" alt="post-thumb" />
                         <div class="card-body">
                             <h4 class="card-title">
-                                <nuxt-link class="text-dark" :to="post.node.path">{{ post.node.title }}</nuxt-link>
+                                <nuxt-link class="text-dark" :to="`/blog/${post.slug}`">{{ post.title }}</nuxt-link>
                             </h4>
-                            <p class="cars-text">{{ post.node.excerpt }}</p>
-                            <nuxt-link class="btn btn-sm btn-primary" :to="post.node.path">Read More</nuxt-link>
+                            <p class="cars-text">{{ post.description }}</p>
+                            <nuxt-link class="btn btn-sm btn-primary" :to="`/blog/${post.slug}`">Read More</nuxt-link>
                         </div>
                     </article>
                 </div>
                 <div class="col-12 text-center">
-                    <div v-if="!$static.posts.edges.length" class="alert alert-warning" role="alert">
+                    <div v-if="!posts.length" class="alert alert-warning" role="alert">
                         No posts yet. Check back soon!
                     </div>
-                </div> -->
+                </div>
             </div>
         </div>
     </section>
 </template>
 
-<static-query>
-    query {
-        posts: allPost(sortBy: "date", order: DESC, limit: 3) {
-            edges {
-                node {
-                    id
-                    title
-                    thumbnail(width: 400, height: 295)
-                    excerpt
-                    date
-                    path
-                }
-            }
-        }
-    }
-</static-query>
-
 <script>
 export default {
-    name: 'LatestPosts',
     data () {
-        return {};
+        return {
+            posts: [],
+        };
+    },
+    async fetch() {
+        this.posts = await this.$content('posts').sortBy('date', 'desc').limit(3).fetch();
     },
     methods: {}
 };

@@ -125,6 +125,11 @@ export default {
                             level: 75,
                         },
                         {
+                            name: 'Nuxt',
+                            color: '#00DB80',
+                            level: 90,
+                        },
+                        {
                             name: 'React',
                             color: '#61DAFB',
                             level: 50,
@@ -140,9 +145,14 @@ export default {
                             level: 85,
                         },
                         {
+                            name: 'Vuetify',
+                            color: '#7BC6FF',
+                            level: 100,
+                        },
+                        {
                             name: '.NET',
                             color: '#5D09E9',
-                            level: 40,
+                            level: 70,
                         },
                     ],
                 },
@@ -167,7 +177,7 @@ export default {
                         {
                             name: 'ASP.NET',
                             color: '#5D09E9',
-                            level: 50,
+                            level: 80,
                         },
                     ],
                 },

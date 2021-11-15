@@ -31,7 +31,7 @@
                 </div>
             </div>
         </div>
-        <img class="img-fluid edu-bimg w-100" src="~/assets/images/backgrounds/education-bg.png" alt="bimg" />
+        <nuxt-img class="img-fluid edu-bimg w-100" src="/images/backgrounds/education-bg.png" alt="bimg" />
     </section>
 </template>
 

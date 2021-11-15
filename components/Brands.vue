@@ -11,77 +11,77 @@
                 :slides-to-show="5">
                 <div>
                     <a href="#" class="text-center d-block outline-0 p-4">
-                        <img class="d-unset img-fluid" src="~/assets/images/brands/kyfb.png" width="75" alt="client-logo" />
+                        <nuxt-img class="d-unset img-fluid" src="/images/brands/kyfb.png" width="75" alt="client-logo" />
                     </a>
                 </div>
                 <div>
                     <a href="#" class="text-center d-block outline-0 p-4">
-                        <img class="d-unset img-fluid" src="~/assets/images/brands/daretocare.png" width="500" alt="client-logo" />
+                        <nuxt-img class="d-unset img-fluid" src="/images/brands/daretocare.png" width="500" alt="client-logo" />
                     </a>
                 </div>
                 <div>
                     <a href="#" class="text-center d-block outline-0 p-4">
-                        <img class="d-unset img-fluid" src="~/assets/images/brands/goodwill.png" width="500" alt="client-logo" />
+                        <nuxt-img class="d-unset img-fluid" src="/images/brands/goodwill.png" width="500" alt="client-logo" />
                     </a>
                 </div>
                 <div>
                     <a href="#" class="text-center d-block outline-0 p-4">
-                        <img class="d-unset img-fluid" src="~/assets/images/brands/greenremedy.png" width="500" alt="client-logo" />
+                        <nuxt-img class="d-unset img-fluid" src="/images/brands/greenremedy.png" width="500" alt="client-logo" />
                     </a>
                 </div>
                 <div>
                     <a href="#" class="text-center d-block outline-0 p-4">
-                        <img class="d-unset img-fluid" src="~/assets/images/brands/kysbest.png" width="500" alt="client-logo" />
+                        <nuxt-img class="d-unset img-fluid" src="/images/brands/kysbest.png" width="500" alt="client-logo" />
                     </a>
                 </div>
                 <div>
                     <a href="#" class="text-center d-block outline-0 p-4">
-                        <img class="d-unset img-fluid" src="~/assets/images/brands/ggc.png" width="200" alt="client-logo" />
+                        <nuxt-img class="d-unset img-fluid" src="/images/brands/ggc.png" width="200" alt="client-logo" />
                     </a>
                 </div>
                 <div>
                     <a href="#" class="text-center d-block outline-0 p-4">
-                        <img class="d-unset img-fluid" src="~/assets/images/brands/andersons.png" width="500" alt="client-logo" />
+                        <nuxt-img class="d-unset img-fluid" src="/images/brands/andersons.png" width="500" alt="client-logo" />
                     </a>
                 </div>
                 <div>
                     <a href="#" class="text-center d-block outline-0 p-4">
-                        <img class="d-unset img-fluid" src="~/assets/images/brands/kygunco.png" width="500" alt="client-logo" />
+                        <nuxt-img class="d-unset img-fluid" src="/images/brands/kygunco.png" width="500" alt="client-logo" />
                     </a>
                 </div>
                 <div>
                     <a href="#" class="text-center d-block outline-0 p-4">
-                        <img class="d-unset img-fluid" src="~/assets/images/brands/danos.png" width="500" alt="client-logo" />
+                        <nuxt-img class="d-unset img-fluid" src="/images/brands/danos.png" width="500" alt="client-logo" />
                     </a>
                 </div>
                 <div>
                     <a href="#" class="text-center d-block outline-0 p-4">
-                        <img class="d-unset img-fluid" src="~/assets/images/brands/usba.png" width="100" alt="client-logo" />
+                        <nuxt-img class="d-unset img-fluid" src="/images/brands/usba.png" width="100" alt="client-logo" />
                     </a>
                 </div>
                 <div>
                     <a href="#" class="text-center d-block outline-0 p-4">
-                        <img class="d-unset img-fluid" src="~/assets/images/brands/iammo.jpg" width="500" alt="client-logo" />
+                        <nuxt-img class="d-unset img-fluid" src="/images/brands/iammo.jpg" width="500" alt="client-logo" />
                     </a>
                 </div>
                 <div>
                     <a href="#" class="text-center d-block outline-0 p-4">
-                        <img class="d-unset img-fluid" src="~/assets/images/brands/recreonics.png" width="500" alt="client-logo" />
+                        <nuxt-img class="d-unset img-fluid" src="/images/brands/recreonics.png" width="500" alt="client-logo" />
                     </a>
                 </div>
                 <div>
                     <a href="#" class="text-center d-block outline-0 p-4">
-                        <img class="d-unset img-fluid" src="~/assets/images/brands/cunningham.png" width="500" alt="client-logo" />
+                        <nuxt-img class="d-unset img-fluid" src="/images/brands/cunningham.png" width="500" alt="client-logo" />
                     </a>
                 </div>
                 <div>
                     <a href="#" class="text-center d-block outline-0 p-4">
-                        <img class="d-unset img-fluid" src="~/assets/images/brands/draftpass.png" width="125" alt="client-logo" />
+                        <nuxt-img class="d-unset img-fluid" src="/images/brands/draftpass.png" width="125" alt="client-logo" />
                     </a>
                 </div>
                 <div>
                     <a href="#" class="text-center d-block outline-0 p-4">
-                        <img class="d-unset img-fluid" src="~/assets/images/brands/kiva.png" width="300" alt="client-logo" />
+                        <nuxt-img class="d-unset img-fluid" src="/images/brands/kiva.png" width="300" alt="client-logo" />
                     </a>
                 </div>
             </VueSlickCarousel>

@@ -3,7 +3,7 @@
         <header v-scroll="handleScroll" class="navigation fixed-top" :class="{ 'nav-bg': stickyHeader }">
             <nav class="navbar navbar-dark navbar-expand-lg">
                 <nuxt-link class="navbar-brand font-tertiary h3" to="/">
-                    <img src="~/assets/images/logo/default.svg" width="65px" alt="logo" />
+                    <nuxt-img src="/images/logo/default.svg" width="65px" alt="logo" />
                 </nuxt-link>
 
                 <BNavbarToggle target="navigation" />
@@ -23,7 +23,7 @@
 
         <transition name="fade" appear>
             <main>
-                <Nuxt />
+                <Nuxt keep-alive />
             </main>
         </transition>
 
@@ -39,7 +39,7 @@
                         </div>
                         <div class="col-md-4">
                             <h5 class="text-muted">Phone</h5>
-                            <p class="text-white paragraph-lg font-secondary">(502) 219-6375‬</p>
+                            <p class="text-white paragraph-lg font-secondary">(502) 219-6375</p>
                         </div>
                         <div class="col-md-4">
                             <h5 class="text-muted">Address</h5>
@@ -54,17 +54,6 @@
         </footer>
     </div>
 </template>
-
-<static-query>
-    query {
-        metadata {
-            siteName
-            email
-            phone
-            address
-        }
-    }
-</static-query>
 
 <script>
 import { BNavbarToggle, BCollapse } from 'bootstrap-vue';

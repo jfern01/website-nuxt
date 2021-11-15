@@ -9,46 +9,46 @@
         </div>
         <kinesis-container class="position-absolute w-100 h-100" style="top: 0;">
             <div class="layer-bg w-100">
-                <img class="img-fluid w-100" src="~/assets/images/illustrations/leaf-bg.png" alt="bg-shape" />
+                <img class="img-fluid w-100" src="/images/illustrations/leaf-bg.png" alt="bg-shape" />
             </div>
             <div id="l2" class="layer">
                 <kinesis-element :strength="20">
-                    <img src="~/assets/images/illustrations/dots-cyan.png" alt="bg-shape" />
+                    <img src="/images/illustrations/dots-cyan.png" alt="bg-shape" />
                 </kinesis-element>
             </div>
             <div id="l3" class="layer">
                 <kinesis-element :strength="20">
-                    <img src="~/assets/images/illustrations/leaf-orange.png" alt="bg-shape" />
+                    <img src="/images/illustrations/leaf-orange.png" alt="bg-shape" />
                 </kinesis-element>
             </div>
             <div id="l4" class="layer">
                 <kinesis-element :strength="20">
-                    <img src="~/assets/images/illustrations/dots-orange.png" alt="bg-shape" />
+                    <img src="/images/illustrations/dots-orange.png" alt="bg-shape" />
                 </kinesis-element>
             </div>
             <div id="l5" class="layer">
                 <kinesis-element :strength="20">
-                    <img src="~/assets/images/illustrations/leaf-yellow.png" alt="bg-shape" />
+                    <img src="/images/illustrations/leaf-yellow.png" alt="bg-shape" />
                 </kinesis-element>
             </div>
             <div id="l6" class="layer">
                 <kinesis-element :strength="20">
-                    <img src="~/assets/images/illustrations/leaf-cyan.png" alt="bg-shape" />
+                    <img src="/images/illustrations/leaf-cyan.png" alt="bg-shape" />
                 </kinesis-element>
             </div>
             <div id="l7" class="layer">
                 <kinesis-element :strength="20">
-                    <img src="~/assets/images/illustrations/dots-group-orange.png" alt="bg-shape" />
+                    <img src="/images/illustrations/dots-group-orange.png" alt="bg-shape" />
                 </kinesis-element>
             </div>
             <div id="l8" class="layer">
                 <kinesis-element :strength="20">
-                    <img src="~/assets/images/illustrations/leaf-pink-round.png" alt="bg-shape" />
+                    <img src="/images/illustrations/leaf-pink-round.png" alt="bg-shape" />
                 </kinesis-element>
             </div>
             <div id="l9" class="layer">
                 <kinesis-element :strength="20">
-                    <img src="~/assets/images/illustrations/leaf-cyan-2.png" alt="bg-shape" />
+                    <img src="/images/illustrations/leaf-cyan-2.png" alt="bg-shape" />
                 </kinesis-element>
             </div>
         </kinesis-container>

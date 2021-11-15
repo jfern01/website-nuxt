@@ -7,12 +7,13 @@
                 </div>
             </div>
         </div>
-        <img id="header-alt-bg-shape-1" src="~/assets/images/illustrations/leaf-bg-top.png" alt="illustrations" class="w-100 position-absolute" />
-        <img id="header-alt-bg-shape-2" src="~/assets/images/illustrations/dots-group-sm.png" alt="illustrations" class="position-absolute" />
-        <img id="header-alt-bg-shape-3" src="~/assets/images/illustrations/leaf-yellow.png" alt="illustrations" class="position-absolute" />
-        <img id="header-alt-bg-shape-4" src="~/assets/images/illustrations/leaf-orange.png" alt="illustrations" class="position-absolute" />
-        <img id="header-alt-bg-shape-5" src="~/assets/images/illustrations/dots-group-cyan.png" alt="illustrations" class="position-absolute" />
-        <img id="header-alt-bg-shape-6" src="~/assets/images/illustrations/leaf-cyan-lg.png" alt="illustrations" class="position-absolute" />
+        <img id="header-alt-bg-shape-1" src="/images/illustrations/leaf-bg-top.png" alt="illustrations" class="w-100 position-absolute" />
+        <img id="header-alt-bg-shape-1" src="/images/illustrations/leaf-bg-top.png" alt="illustrations" class="w-100 position-absolute" />
+        <img id="header-alt-bg-shape-2" src="/images/illustrations/dots-group-sm.png" alt="illustrations" class="position-absolute" />
+        <img id="header-alt-bg-shape-3" src="/images/illustrations/leaf-yellow.png" alt="illustrations" class="position-absolute" />
+        <img id="header-alt-bg-shape-4" src="/images/illustrations/leaf-orange.png" alt="illustrations" class="position-absolute" />
+        <img id="header-alt-bg-shape-5" src="/images/illustrations/dots-group-cyan.png" alt="illustrations" class="position-absolute" />
+        <img id="header-alt-bg-shape-6" src="/images/illustrations/leaf-cyan-lg.png" alt="illustrations" class="position-absolute" />
     </section>
 </template>
 
